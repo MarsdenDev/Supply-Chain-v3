@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_choice_scm_contact_type" table="x_177833_scm_supply_chain" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_scm_contact_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Patient call - email</label>
+            <language>en</language>
+            <name>x_177833_scm_supply_chain</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-30 21:35:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01c7c6a8db001300e51e72ffbf96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-30 21:35:08</sys_updated_on>
+            <value>u_choice_scm_contact_type_patient</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_scm_contact_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RHM call - email</label>
+            <language>en</language>
+            <name>x_177833_scm_supply_chain</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-30 21:35:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41c7c6a8db001300e51e72ffbf96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-30 21:35:08</sys_updated_on>
+            <value>u_choice_scm_contact_type_rhm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_scm_contact_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vendor call - email</label>
+            <language>en</language>
+            <name>x_177833_scm_supply_chain</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-30 21:35:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cdc7c6a8db001300e51e72ffbf96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-30 21:35:08</sys_updated_on>
+            <value>u_choice_scm_contact_type_vendor</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_choice_scm_contact_type</element>
+            <name>x_177833_scm_supply_chain</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-30 21:35:08</sys_created_on>
+            <sys_id>0dc7c6a8db001300e51e72ffbf96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_choice_scm_contact_type</sys_name>
+            <sys_package display_value="SCM" source="x_177833_scm">5ffff524db001300e51e72ffbf9619d9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SCM">5ffff524db001300e51e72ffbf9619d9</sys_scope>
+            <sys_update_name>sys_choice_x_177833_scm_supply_chain_u_choice_scm_contact_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-30 21:35:08</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Supply Chain" max_length="40" name="x_177833_scm_supply_chain" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Ticket number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Invoice" max_length="40" name="u_boolean_scm_ticket_type_invoice" type="boolean"/>
+        <element label="PO" max_length="40" name="u_boolean_scm_ticket_type_po" type="boolean"/>
+        <element label="Req" max_length="40" name="u_boolean_scm_ticket_type_req" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Contact type" mandatory="true" max_length="40" name="u_choice_scm_contact_type" type="string">
+            <choice>
+                <element label="Patient call - email" sequence="0" value="u_choice_scm_contact_type_patient"/>
+                <element label="RHM call - email" sequence="1" value="u_choice_scm_contact_type_rhm"/>
+                <element label="Vendor call - email" sequence="2" value="u_choice_scm_contact_type_vendor"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="u_choice_scm_priority_4" label="Priority" mandatory="true" max_length="40" name="u_choice_scm_priority" type="string">
+            <choice>
+                <element label="1 - Urgent" sequence="0" value="u_choice_scm_priority_1"/>
+                <element label="2 - 2 hour response" sequence="1" value="u_choice_scm_priority_2"/>
+                <element label="3 - Response by end of business day" sequence="2" value="u_choice_scm_priority_3"/>
+                <element label="4 - Response by next end of business day" sequence="3" value="u_choice_scm_priority_4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Ticket category" mandatory="true" max_length="40" name="u_choice_scm_ticket_category" type="string">
+            <choice>
+                <element label="AP call" sequence="0" value="u_choice_scm_ticket_category_apcall"/>
+                <element label="AP email" sequence="1" value="u_choice_scm_ticket_category_apemail"/>
+                <element label="Direct call" sequence="2" value="u_choice_scm_ticket_category_directcall"/>
+                <element label="DMS self-distribution" sequence="3" value="u_choice_scm_ticket_category_dms"/>
+                <element label="Expediter" sequence="4" value="u_choice_scm_ticket_category_expediter"/>
+                <element label="Purchasing issues" sequence="5" value="u_choice_scm_ticket_category_purchasingissues"/>
+                <element label="Receiving" sequence="6" value="u_choice_scm_ticket_category_receiving"/>
+                <element label="Requester" sequence="7" value="u_choice_scm_ticket_category_requester"/>
+                <element label="Return" sequence="8" value="u_choice_scm_ticket_category_return"/>
+                <element label="Vendor call" sequence="9" value="u_choice_scm_ticket_category_vendorcall"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="u_choice_scm_ticket_state_open" label="State" mandatory="true" max_length="40" name="u_choice_scm_ticket_state" type="string">
+            <choice>
+                <element label="Open" sequence="0" value="u_choice_scm_ticket_state_open"/>
+                <element label="Closed" sequence="1" value="u_choice_scm_ticket_state_closed"/>
+                <element label="Closed FCR" sequence="2" value="u_choice_scm_ticket_state_closed_fcr"/>
+                <element label="Pending" sequence="3" value="u_choice_scm_ticket_state_pending"/>
+            </choice>
+        </element>
+        <element dependent="u_reference_scm_assignment_group" dependent_on_field="u_reference_scm_assignment_group" label="New Reference" max_length="32" name="u_reference_7" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="RHM" mandatory="true" max_length="32" name="u_reference_contact_rhm" reference="cmn_location" type="reference"/>
+        <element dependent="u_reference_scm_assignment_group" dependent_on_field="u_reference_scm_assignment_group" label="Assigned to" mandatory="true" max_length="32" name="u_reference_scm_assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Assignment group" mandatory="true" max_length="32" name="u_reference_scm_assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="u_reference_scm_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact email" mandatory="true" max_length="40" name="u_string_scm_contact_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact phone" mandatory="true" max_length="40" name="u_string_scm_contact_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reference number" mandatory="true" max_length="40" name="u_string_scm_reference_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Ticket subcategory" mandatory="true" max_length="40" name="u_string_scm_ticket_category_sub" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Ticket details" mandatory="true" max_length="4000" name="u_string_scm_ticket_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor name" max_length="40" name="u_string_scm_vendor_name" type="string"/>
+        <index name="index">
+            <element name="u_reference_scm_assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_scm_requested_for"/>
+        </index>
+        <index name="index3">
+            <element name="u_reference_contact_rhm"/>
+        </index>
+        <index name="index4">
+            <element name="u_reference_7"/>
+        </index>
+    </element>
+</database>

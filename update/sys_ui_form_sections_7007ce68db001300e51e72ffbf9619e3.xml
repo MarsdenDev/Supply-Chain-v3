@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="7007ce68db001300e51e72ffbf9619e3" sys_domain="global" table="x_177833_scm_supply_chain" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-30 21:31:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f40742a8db001300e51e72ffbf9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_177833_scm_supply_chain" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">7007ce68db001300e51e72ffbf9619e3</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">6d51c624db001300e51e72ffbf9619a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-30 21:31:50</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-30 21:31:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f00742a8db001300e51e72ffbf9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_177833_scm_supply_chain" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">7007ce68db001300e51e72ffbf9619e3</sys_ui_form>
+            <sys_ui_section caption="Ticket information" display_value="Ticket information" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">3407ce68db001300e51e72ffbf9619e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-30 21:31:50</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_177833_scm_supply_chain</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-01-30 21:31:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7007ce68db001300e51e72ffbf9619e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_177833_scm_supply_chain</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SCM" source="x_177833_scm">5ffff524db001300e51e72ffbf9619d9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SCM">5ffff524db001300e51e72ffbf9619d9</sys_scope>
+            <sys_update_name>sys_ui_form_sections_7007ce68db001300e51e72ffbf9619e3</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-01-30 21:31:50</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
