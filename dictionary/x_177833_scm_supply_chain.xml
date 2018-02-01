@@ -5,6 +5,12 @@
         <element label="Invoice" max_length="40" name="u_boolean_scm_ticket_type_invoice" type="boolean"/>
         <element label="PO" max_length="40" name="u_boolean_scm_ticket_type_po" type="boolean"/>
         <element label="Req" max_length="40" name="u_boolean_scm_ticket_type_req" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Assignment group" mandatory="true" max_length="40" name="u_choice_scm_assignment_group" type="string">
+            <choice>
+                <element label="Dist" sequence="0" value="u_choice_scm_assignment_group_dist"/>
+                <element label="Choice 2" sequence="1" value="u_choice_scm_assignment_group_2"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Contact type" mandatory="true" max_length="40" name="u_choice_scm_contact_type" type="string">
             <choice>
                 <element label="Patient call - email" sequence="0" value="u_choice_scm_contact_type_patient"/>
@@ -46,6 +52,8 @@
         <element label="RHM" mandatory="true" max_length="32" name="u_reference_contact_rhm" reference="cmn_location" type="reference"/>
         <element dependent="u_reference_scm_assignment_group" dependent_on_field="u_reference_scm_assignment_group" label="Assigned to" mandatory="true" max_length="32" name="u_reference_scm_assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element label="Assignment group" mandatory="true" max_length="32" name="u_reference_scm_assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Contact Email" mandatory="true" max_length="32" name="u_reference_scm_contact_email" reference="cmdb_ci_email_server" type="reference"/>
+        <element label="Contact phone" mandatory="true" max_length="32" name="u_reference_scm_contact_phone" reference="cmdb_ci_ip_phone" type="reference"/>
         <element label="Requested for" mandatory="true" max_length="32" name="u_reference_scm_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Contact email" mandatory="true" max_length="40" name="u_string_scm_contact_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Contact phone" mandatory="true" max_length="40" name="u_string_scm_contact_phone" type="string"/>
@@ -54,15 +62,21 @@
         <element attributes="edge_encryption_enabled=true" label="Ticket details" mandatory="true" max_length="4000" name="u_string_scm_ticket_info" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Vendor name" max_length="40" name="u_string_scm_vendor_name" type="string"/>
         <index name="index">
-            <element name="u_reference_scm_assigned_to"/>
+            <element name="u_reference_scm_contact_phone"/>
         </index>
         <index name="index2">
-            <element name="u_reference_scm_requested_for"/>
+            <element name="u_reference_scm_assigned_to"/>
         </index>
         <index name="index3">
-            <element name="u_reference_contact_rhm"/>
+            <element name="u_reference_scm_requested_for"/>
         </index>
         <index name="index4">
+            <element name="u_reference_scm_contact_email"/>
+        </index>
+        <index name="index5">
+            <element name="u_reference_contact_rhm"/>
+        </index>
+        <index name="index6">
             <element name="u_reference_7"/>
         </index>
     </element>
