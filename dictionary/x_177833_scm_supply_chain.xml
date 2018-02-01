@@ -49,11 +49,11 @@
             </choice>
         </element>
         <element dependent="u_reference_scm_assignment_group" dependent_on_field="u_reference_scm_assignment_group" label="New Reference" max_length="32" name="u_reference_7" reference="sys_user" type="reference" use_dependent_field="true"/>
-        <element label="RHM" mandatory="true" max_length="32" name="u_reference_contact_rhm" reference="cmn_location" type="reference"/>
+        <element dependent="u_reference_scm_requested_for" dependent_on_field="u_reference_scm_requested_for" label="RHM" mandatory="true" max_length="32" name="u_reference_contact_rhm" reference="cmn_location" type="reference" use_dependent_field="true"/>
         <element dependent="u_reference_scm_assignment_group" dependent_on_field="u_reference_scm_assignment_group" label="Assigned to" mandatory="true" max_length="32" name="u_reference_scm_assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
-        <element label="Assignment group" mandatory="true" max_length="32" name="u_reference_scm_assignment_group" reference="sys_user_group" type="reference"/>
-        <element label="Contact Email" mandatory="true" max_length="32" name="u_reference_scm_contact_email" reference="cmdb_ci_email_server" type="reference"/>
-        <element label="Contact phone" mandatory="true" max_length="32" name="u_reference_scm_contact_phone" reference="cmdb_ci_ip_phone" type="reference"/>
+        <element label="Assignment group" mandatory="true" max_length="32" name="u_reference_scm_assignment_group" reference="sys_user_group" reference_qual="roles=x_177833_scm.admin^EQ" reference_qual_condition="roles=x_177833_scm.admin^EQ" type="reference"/>
+        <element dependent="u_reference_scm_requested_for" dependent_on_field="u_reference_scm_requested_for" label="Contact Email" mandatory="true" max_length="32" name="u_reference_scm_contact_email" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element dependent="u_reference_scm_requested_for" dependent_on_field="u_reference_scm_requested_for" label="Contact phone" mandatory="true" max_length="32" name="u_reference_scm_contact_phone" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element label="Requested for" mandatory="true" max_length="32" name="u_reference_scm_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Contact email" mandatory="true" max_length="40" name="u_string_scm_contact_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Contact phone" mandatory="true" max_length="40" name="u_string_scm_contact_phone" type="string"/>
