@@ -5,141 +5,183 @@
             <element>u_string_scm_ticket_info</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-30 21:54:53</sys_created_on>
-            <sys_id>564c8a2cdb001300e51e72ffbf9619b9</sys_id>
+            <sys_created_on>2018-02-06 17:31:51</sys_created_on>
+            <sys_id>7d335d36db401300e51e72ffbf9619fa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Ticket information" display_value="Ticket information" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">3407ce68db001300e51e72ffbf9619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-30 21:54:53</sys_updated_on>
+            <sys_updated_on>2018-02-06 17:31:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_scm_ticket_details</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 17:31:51</sys_created_on>
+            <sys_id>fd335d36db401300e51e72ffbf9619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Ticket information" display_value="Ticket information" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">3407ce68db001300e51e72ffbf9619e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 17:31:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-30 21:54:53</sys_created_on>
-            <sys_id>d64c8a2cdb001300e51e72ffbf9619b9</sys_id>
+            <sys_created_on>2018-02-06 17:31:51</sys_created_on>
+            <sys_id>71335d36db401300e51e72ffbf9619fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Ticket information" display_value="Ticket information" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">3407ce68db001300e51e72ffbf9619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-30 21:54:53</sys_updated_on>
+            <sys_updated_on>2018-02-06 17:31:51</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_boolean_scm_ticket_type_po</element>
-            <position>2</position>
+            <element>u_string_scm_ticket_type_invoice</element>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-30 21:54:53</sys_created_on>
-            <sys_id>5a4c8a2cdb001300e51e72ffbf9619b9</sys_id>
+            <sys_created_on>2018-02-06 17:31:51</sys_created_on>
+            <sys_id>f1335d36db401300e51e72ffbf9619fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Ticket information" display_value="Ticket information" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">3407ce68db001300e51e72ffbf9619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-30 21:54:53</sys_updated_on>
+            <sys_updated_on>2018-02-06 17:31:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_boolean_scm_ticket_type_invoice</element>
-            <position>3</position>
+            <element>u_string_scm_ticket_type_po</element>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-30 21:54:53</sys_created_on>
-            <sys_id>da4c8a2cdb001300e51e72ffbf9619b9</sys_id>
+            <sys_created_on>2018-02-06 17:31:51</sys_created_on>
+            <sys_id>75335d36db401300e51e72ffbf9619fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Ticket information" display_value="Ticket information" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">3407ce68db001300e51e72ffbf9619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-30 21:54:53</sys_updated_on>
+            <sys_updated_on>2018-02-06 17:31:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_string_scm_reference_number</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-30 21:54:53</sys_created_on>
-            <sys_id>5e4c8a2cdb001300e51e72ffbf9619b9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Ticket information" display_value="Ticket information" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">3407ce68db001300e51e72ffbf9619e2</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-30 21:54:53</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_choice_scm_ticket_category</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-30 21:54:53</sys_created_on>
-            <sys_id>de4c8a2cdb001300e51e72ffbf9619b9</sys_id>
+            <sys_created_on>2018-02-06 17:31:51</sys_created_on>
+            <sys_id>f5335d36db401300e51e72ffbf9619fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Ticket information" display_value="Ticket information" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">3407ce68db001300e51e72ffbf9619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-30 21:54:53</sys_updated_on>
+            <sys_updated_on>2018-02-06 17:31:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_scm_ticket_category_sub</element>
+            <element>u_choice_scm_request_area</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-30 21:54:53</sys_created_on>
-            <sys_id>524c8a2cdb001300e51e72ffbf9619ba</sys_id>
+            <sys_created_on>2018-02-06 17:31:51</sys_created_on>
+            <sys_id>79335d36db401300e51e72ffbf9619fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Ticket information" display_value="Ticket information" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">3407ce68db001300e51e72ffbf9619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-30 21:54:53</sys_updated_on>
+            <sys_updated_on>2018-02-06 17:31:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_string_scm_vendor_name</element>
+            <element>u_choice_scm_request_area_sub</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-30 21:54:53</sys_created_on>
-            <sys_id>d24c8a2cdb001300e51e72ffbf9619ba</sys_id>
+            <sys_created_on>2018-02-06 17:31:51</sys_created_on>
+            <sys_id>f9335d36db401300e51e72ffbf9619fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Ticket information" display_value="Ticket information" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">3407ce68db001300e51e72ffbf9619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-30 21:54:53</sys_updated_on>
+            <sys_updated_on>2018-02-06 17:31:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reference_scm_vendor_name</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 17:31:51</sys_created_on>
+            <sys_id>7d335d36db401300e51e72ffbf9619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Ticket information" display_value="Ticket information" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">3407ce68db001300e51e72ffbf9619e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 17:31:51</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-30 21:54:53</sys_created_on>
-            <sys_id>564c8a2cdb001300e51e72ffbf9619ba</sys_id>
+            <sys_created_on>2018-02-06 17:31:51</sys_created_on>
+            <sys_id>fd335d36db401300e51e72ffbf9619fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Ticket information" display_value="Ticket information" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">3407ce68db001300e51e72ffbf9619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-30 21:54:53</sys_updated_on>
+            <sys_updated_on>2018-02-06 17:31:51</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_boolean_scm_ticket_type_req</element>
-            <position>9</position>
+            <element>u_string_scm_ticket_type_req</element>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-30 21:54:53</sys_created_on>
-            <sys_id>d64c8a2cdb001300e51e72ffbf9619ba</sys_id>
+            <sys_created_on>2018-02-06 17:31:51</sys_created_on>
+            <sys_id>71335d36db401300e51e72ffbf9619fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Ticket information" display_value="Ticket information" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">3407ce68db001300e51e72ffbf9619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-30 21:54:53</sys_updated_on>
+            <sys_updated_on>2018-02-06 17:31:51</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 17:31:51</sys_created_on>
+            <sys_id>f1335d36db401300e51e72ffbf9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Ticket information" display_value="Ticket information" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">3407ce68db001300e51e72ffbf9619e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 17:31:51</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 17:31:51</sys_created_on>
+            <sys_id>75335d36db401300e51e72ffbf9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Ticket information" display_value="Ticket information" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">3407ce68db001300e51e72ffbf9619e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 17:31:51</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Ticket information</caption>
