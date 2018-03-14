@@ -18,16 +18,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-01-30 21:31:50</sys_created_on>
+            <sys_created_on>2018-03-14 14:41:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f00742a8db001300e51e72ffbf9619cb</sys_id>
+            <sys_id>a2850216db301300e51e72ffbf96197d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_177833_scm_supply_chain" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">7007ce68db001300e51e72ffbf9619e3</sys_ui_form>
-            <sys_ui_section caption="Ticket information" display_value="Ticket information" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">3407ce68db001300e51e72ffbf9619e2</sys_ui_section>
+            <sys_ui_section caption="Ticket Information" display_value="Ticket Information" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">6a850216db301300e51e72ffbf961962</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-01-30 21:31:50</sys_updated_on>
+            <sys_updated_on>2018-03-14 14:41:51</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_177833_scm_supply_chain</name>

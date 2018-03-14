@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 17:12:59</sys_created_on>
-            <sys_id>55ee4db2db401300e51e72ffbf9619a5</sys_id>
+            <sys_created_on>2018-03-14 14:41:52</sys_created_on>
+            <sys_id>ee850216db301300e51e72ffbf96198a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">6d51c624db001300e51e72ffbf9619a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 17:12:59</sys_updated_on>
+            <sys_updated_on>2018-03-14 14:41:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>sys_created_by</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 17:12:59</sys_created_on>
-            <sys_id>d5ee4db2db401300e51e72ffbf9619a5</sys_id>
+            <sys_created_on>2018-03-14 14:41:52</sys_created_on>
+            <sys_id>62850216db301300e51e72ffbf96198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">6d51c624db001300e51e72ffbf9619a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 17:12:59</sys_updated_on>
+            <sys_updated_on>2018-03-14 14:41:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,41 +33,41 @@
             <element>u_reference_scm_requested_for</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 17:12:59</sys_created_on>
-            <sys_id>59ee4db2db401300e51e72ffbf9619a5</sys_id>
+            <sys_created_on>2018-03-14 14:41:52</sys_created_on>
+            <sys_id>e2850216db301300e51e72ffbf96198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">6d51c624db001300e51e72ffbf9619a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 17:12:59</sys_updated_on>
+            <sys_updated_on>2018-03-14 14:41:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_reference_scm_contact_phone</element>
+            <element>u_string_1</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 17:12:59</sys_created_on>
-            <sys_id>d9ee4db2db401300e51e72ffbf9619a5</sys_id>
+            <sys_created_on>2018-03-14 14:41:52</sys_created_on>
+            <sys_id>66850216db301300e51e72ffbf96198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">6d51c624db001300e51e72ffbf9619a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 17:12:59</sys_updated_on>
+            <sys_updated_on>2018-03-14 14:41:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_reference_scm_contact_email</element>
+            <element>u_string_2</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 17:12:59</sys_created_on>
-            <sys_id>5dee4db2db401300e51e72ffbf9619a5</sys_id>
+            <sys_created_on>2018-03-14 14:41:52</sys_created_on>
+            <sys_id>e6850216db301300e51e72ffbf96198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">6d51c624db001300e51e72ffbf9619a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 17:12:59</sys_updated_on>
+            <sys_updated_on>2018-03-14 14:41:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>u_reference_contact_rhm</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 17:12:59</sys_created_on>
-            <sys_id>ddee4db2db401300e51e72ffbf9619a5</sys_id>
+            <sys_created_on>2018-03-14 14:41:52</sys_created_on>
+            <sys_id>6a850216db301300e51e72ffbf96198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">6d51c624db001300e51e72ffbf9619a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 17:12:59</sys_updated_on>
+            <sys_updated_on>2018-03-14 14:41:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>.split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 17:12:59</sys_created_on>
-            <sys_id>51ee4db2db401300e51e72ffbf9619a6</sys_id>
+            <sys_created_on>2018-03-14 14:41:52</sys_created_on>
+            <sys_id>ea850216db301300e51e72ffbf96198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">6d51c624db001300e51e72ffbf9619a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 17:12:59</sys_updated_on>
+            <sys_updated_on>2018-03-14 14:41:52</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -103,13 +103,13 @@
             <element>u_choice_scm_contact_type</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 17:12:59</sys_created_on>
-            <sys_id>d1ee4db2db401300e51e72ffbf9619a6</sys_id>
+            <sys_created_on>2018-03-14 14:41:52</sys_created_on>
+            <sys_id>6e850216db301300e51e72ffbf96198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">6d51c624db001300e51e72ffbf9619a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 17:12:59</sys_updated_on>
+            <sys_updated_on>2018-03-14 14:41:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -117,13 +117,13 @@
             <element>u_reference_scm_assignment_group</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 17:12:59</sys_created_on>
-            <sys_id>55ee4db2db401300e51e72ffbf9619a6</sys_id>
+            <sys_created_on>2018-03-14 14:41:52</sys_created_on>
+            <sys_id>ee850216db301300e51e72ffbf96198b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">6d51c624db001300e51e72ffbf9619a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 17:12:59</sys_updated_on>
+            <sys_updated_on>2018-03-14 14:41:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -131,13 +131,13 @@
             <element>u_reference_scm_assigned_to</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 17:12:59</sys_created_on>
-            <sys_id>d5ee4db2db401300e51e72ffbf9619a6</sys_id>
+            <sys_created_on>2018-03-14 14:41:52</sys_created_on>
+            <sys_id>62850216db301300e51e72ffbf96198c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">6d51c624db001300e51e72ffbf9619a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 17:12:59</sys_updated_on>
+            <sys_updated_on>2018-03-14 14:41:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -145,13 +145,13 @@
             <element>u_choice_scm_ticket_state</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 17:12:59</sys_created_on>
-            <sys_id>59ee4db2db401300e51e72ffbf9619a6</sys_id>
+            <sys_created_on>2018-03-14 14:41:52</sys_created_on>
+            <sys_id>e2850216db301300e51e72ffbf96198c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">6d51c624db001300e51e72ffbf9619a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 17:12:59</sys_updated_on>
+            <sys_updated_on>2018-03-14 14:41:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -159,13 +159,13 @@
             <element>u_choice_scm_priority</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 17:12:59</sys_created_on>
-            <sys_id>d9ee4db2db401300e51e72ffbf9619a6</sys_id>
+            <sys_created_on>2018-03-14 14:41:52</sys_created_on>
+            <sys_id>66850216db301300e51e72ffbf96198c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_177833_scm_supply_chain" sys_domain="global" view="Default view">6d51c624db001300e51e72ffbf9619a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 17:12:59</sys_updated_on>
+            <sys_updated_on>2018-03-14 14:41:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

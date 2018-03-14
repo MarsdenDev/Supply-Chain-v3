@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="u_string_scm_ticket_details" label="Additional Information" language="en" table="x_177833_scm_supply_chain">
+    <sys_documentation element="u_choice_3" label="Return or Keep" language="en" table="x_177833_scm_supply_chain">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>u_string_scm_ticket_details</element>
+            <element>u_choice_3</element>
             <help/>
             <hint/>
-            <label>Additional Information</label>
+            <label>Return or Keep</label>
             <language>en</language>
             <name>x_177833_scm_supply_chain</name>
-            <plural>Additional Informations</plural>
+            <plural>Return or Keeps</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 17:14:35</sys_created_on>
-            <sys_id>b04fcdb2db401300e51e72ffbf9619ff</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Additional Information</sys_name>
+            <sys_created_on>2018-03-14 15:03:51</sys_created_on>
+            <sys_id>b89a0696db301300e51e72ffbf9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Return or Keep</sys_name>
             <sys_package display_value="SCM" source="x_177833_scm">5ffff524db001300e51e72ffbf9619d9</sys_package>
             <sys_policy/>
             <sys_scope display_value="SCM">5ffff524db001300e51e72ffbf9619d9</sys_scope>
-            <sys_update_name>sys_documentation_x_177833_scm_supply_chain_u_string_scm_ticket_details_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_177833_scm_supply_chain_u_choice_3_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-14 15:07:17</sys_updated_on>
+            <sys_updated_on>2018-03-14 15:03:51</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

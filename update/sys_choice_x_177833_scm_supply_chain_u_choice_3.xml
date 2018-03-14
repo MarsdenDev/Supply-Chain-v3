@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_choice_3" table="x_177833_scm_supply_chain" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_3</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Keep</label>
+            <language>en</language>
+            <name>x_177833_scm_supply_chain</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-14 15:03:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c59a8696db301300e51e72ffbf961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-14 15:03:52</sys_updated_on>
+            <value>Keep</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_3</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Return</label>
+            <language>en</language>
+            <name>x_177833_scm_supply_chain</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-14 15:03:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>099a8696db301300e51e72ffbf961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-14 15:03:52</sys_updated_on>
+            <value>Return</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_choice_3</element>
+            <name>x_177833_scm_supply_chain</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-14 15:03:52</sys_created_on>
+            <sys_id>c19a8696db301300e51e72ffbf961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_choice_3</sys_name>
+            <sys_package display_value="SCM" source="x_177833_scm">5ffff524db001300e51e72ffbf9619d9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SCM">5ffff524db001300e51e72ffbf9619d9</sys_scope>
+            <sys_update_name>sys_choice_x_177833_scm_supply_chain_u_choice_3</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-14 15:03:52</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
